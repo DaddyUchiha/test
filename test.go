@@ -69,6 +69,8 @@ func main(){
 	list()
 
 	open("new.txt")
+
+	fmt.Println("Hello")
 }  
 
 func list(li ...string){
